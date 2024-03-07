@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula De Web</title>
+        <link rel="stylesheet" href="css/stlyles.css">
+    </head>
+    <body>
+        <h1>Primeiro cabeçalho</h1>
+        <h2>Segundo cabeçalho</h2>
+        <h3>Terceiro cabeçalho</h3>
+        <img src="img/Brasão_UFT.png" alt="Primeira imagem" height="80" width="80">
+        <a href="https://ava.uft.edu.br/palmas/login/index.php " target="_blank"> Primeiro link</a>
+
+        <h2>Lista ordenada</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <h2>Lista não ordenada</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <table>
+                <caption> descricça da tabela </caption>
+                <thead>
+                    <th>colina 1</th>
+                    <th>colina 2</th>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>Linha 1 - coluna 1 </td>
+                    <td>Linha 1 - coluna 2 </td>
+                </tr>
+                <tr>
+                    <td>Linha 2 - coluna 1 </td>
+                    <td>Linha 2 - coluna 2 </td>
+                </tr>
+                <tr>
+                    <td>Linha 3 - coluna 1 </td>
+                    <td>Linha 3 - coluna 2 </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="/cadastro/" method="post">
+           <h3>Login</h3> <input type="text" name="Login" placeholder="Digite seu nome ">
+            <h3>Senha</h3><input type="password" name="Senha" placeholder="Digite sua senha  ">
+
+            <input type="radio" name="sexo" value="1 " checked> Masculino
+            <input type="radio" name="sexo" value="2" checked> Feminino
+
+            <input type="checkbox" name="veiculo 1" value="bike " checked> Eu tenho uma bike
+            <input type="checkbox" name="veiculo 2" value="corro" checked> eu tenho um carro
+
+            Curso: 
+            <select name="curso">
+                <option value="1"> Ciencia da Computação</option>
+                <option value="2"> Direito</option>
+                <option value="3"> Engenharia Eletrica</option>
+                <option value="4"> Medicina</option>
+            </select>
+
+            Menssagem: <textarea name="Menssagem" id="" cols="30" rows="10"></textarea>
+            
+            Idade: <input type="number" name="idede " min="0" max="100" step="1">
+
+            Data de Nascimento: <input type="date" name="data " min="0" max="100" step="1">
+
+
+            Auto complete: <input list="cheeses">
+            <datalist id="cheeses">
+                <option > Camembert</option>
+                <option > cheda </option>
+                <option > pacoco</option>
+                <option > chutp</option>
+                <option > geba</option>
+                <option > momo</option>
+            </datalist>
+
+            <input type="hidden" name="country" value="Brasil">
+
+            <input type="reset"  value="Limpar">
+            <input type="submit"  value="Enviar">
+
+        </form>
+
+        <div>
+            Elementos de bloco
+        </div>
+        <span>1111</span>
+        <span>2222</span>
+        
+    </body>
+</html>
